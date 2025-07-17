@@ -62,9 +62,26 @@
       { "range_chapters": "337-350", "name": "Antiguos Ancianos?" },
       { "range_chapters": "351-366", "name": "Secta Subsidiaria" },
       { "range_chapters": "367-376", "name": "Secta malvada" },
-      { "range_chapters": "377-384", "name": "Secta malvada" },
-      { "range_chapters": "385-404", "name": "Secta malvada" }
+      { "range_chapters": "377-384", "name": "Fantasma" },
+      { "range_chapters": "385-404", "name": "Ataque al monte hua" }
     ]
   },
-  { "range_chapters": "405-2000", "name": "Pending" }
+  {
+    "name": "Nuevas espadas",
+    "data": [
+      { "range_chapters": "405-420", "name": "Viajando a Sichuan" },
+      { "range_chapters": "421-425", "name": "Secta Yuryong" },
+      { "range_chapters": "426-438", "name": "Forjando espadas" },
+      { "range_chapters": "439-448", "name": "Rey Nokrim" }
+    ]
+  },
+  {
+    "name": "Mar del norte",
+    "data": [
+      { "range_chapters": "449-456", "name": "Visita del lider de Shaolin" },
+      { "range_chapters": "457-466", "name": "Encontrando refugio" },
+      { "range_chapters": "467-474", "name": "Curando una aldea" },
+      { "range_chapters": "475-2000", "name": "Curando una aldea" }
+    ]
+  }
 ]
