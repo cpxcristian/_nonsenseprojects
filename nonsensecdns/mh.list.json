@@ -24,10 +24,10 @@
   {
     "name": "Tumba de la espada",
     "data": [
-      { "range_chapters": "116-121", "name": "!3D-2Y" },
+      { "range_chapters": "116-121", "name": "Temporada de entrenamiento" },
       { "range_chapters": "122-128", "name": "Contra la secta wudang" },
       { "range_chapters": "129-134", "name": "Mapa del tesoro" },
-      { "range_chapters": "135-145", "name": "Mapa del tesoro" },
+      { "range_chapters": "135-145", "name": "Buscando la tumba" },
       { "range_chapters": "145-162", "name": "Tumba de la espada" }
     ]
   },
@@ -39,10 +39,10 @@
       { "range_chapters": "177-180", "name": "Viajando a Sichuan" },
       { "range_chapters": "181-189", "name": "Jo Gul" },
       { "range_chapters": "190-196", "name": "Maestro del clan Tang" },
-      { "range_chapters": "197-212", "name": "Clan Tang" },
+      { "range_chapters": "197-212", "name": "Visitando al Clan Tang" },
       { "range_chapters": "213-234", "name": "Clan de las bestias" },
       { "range_chapters": "235-238", "name": "Regreso a la secta" },
-      { "range_chapters": "239-252", "name": "Habemus pildora" }
+      { "range_chapters": "239-252", "name": "Creando la pildora" }
     ]
   },
   {
@@ -81,7 +81,35 @@
       { "range_chapters": "449-456", "name": "Visita del lider de Shaolin" },
       { "range_chapters": "457-466", "name": "Encontrando refugio" },
       { "range_chapters": "467-474", "name": "Curando una aldea" },
-      { "range_chapters": "475-2000", "name": "Curando una aldea" }
+      { "range_chapters": "475-481", "name": "Clan del hielo" },
+      { "range_chapters": "482-488", "name": "Cosechando cristales de hielo" },
+      { "range_chapters": "489-494", "name": "Liberando prisioneros de la mina" },
+      { "range_chapters": "495-509", "name": "Retomando el trono" },
+      { "range_chapters": "510-524", "name": "Invasión del culto demoniaco" },
+      { "range_chapters": "525-538", "name": "Deteniendo el ritual" },
+      { "range_chapters": "539-546", "name": "Dejando el mar del norte" },
+      { "range_chapters": "547-551", "name": "Encuentro con los monjes Lama" }
+    ]
+  },
+  {
+    "name": "Sparring contra Wudang",
+    "data": [
+      { "range_chapters": "552-570", "name": "Visita del rey nokrim" },
+      { "range_chapters": "571-579", "name": "Batalla en ciudad Changsa" },
+      { "range_chapters": "580-596", "name": "Limpiando las guaridas de los bandidos" },
+      { "range_chapters": "597-606", "name": "Gremio de Mercaderes de barcos dorados" },
+      { "range_chapters": "607-614", "name": "Sparring contra Wudang" },
+      { "range_chapters": "615-619", "name": "La espada que representa el Monte Hua" },
+      { "range_chapters": "620-625", "name": "La persona que elevará el nombre del Monte Hua" },
+      { "range_chapters": "626-630", "name": "El espíritu del Monte Hua siempre ha estado aquí" },
+      { "range_chapters": "631-644", "name": "Anciano del Wudang Heo Gong" },
+      { "range_chapters": "645-651", "name": "Las sectas empiezan a moverse" }
+    ]
+  },
+  {
+    "name": "Pendiente",
+    "data": [
+      { "range_chapters": "651-2000", "name": "Pendiente" }
     ]
   }
 ]

@@ -1,12 +1,20 @@
 {(
   async () => {
-    let response = await fetch('https://cdn.jsdelivr.net/gh/cpxcristian/_nonsenseprojects@develop/nonsensecdns/mh.list.json')
-    const sagas = await response.json();
+    const cachedData = localStorage.getItem("mhaList")
+    let sagas = cachedData ? JSON.parse(cachedData) : null;
+
+    if (!sagas) {
+      let response = await fetch('https://cdn.jsdelivr.net/gh/cpxcristian/_nonsenseprojects@develop/nonsensecdns/mh.list.json')
+      sagas = await response.json();
+      localStorage.setItem("mhaList", JSON.stringify(sagas));
+    }
+
     const list = {};
     const range = (start, end) => Array.from({ length: end - start + 1 }, (_, i) => start + i);
     [...document.querySelectorAll('.post-body a')].filter(el => /Cap[ií]tulo/i.test(el.textContent)).map(el=>{
-      const chapter = el.href.substring(el.href.indexOf("capitulo-") + 9, el.href.indexOf(".html"));
-      if (!isNaN(chapter)) {
+      const chapter = el.textContent.substring(el.textContent.search(/Cap[ií]tulo/i) + 9);
+      const isHtml = el.href.includes('.html');
+      if (!isNaN(chapter) && isHtml) {
         list[chapter] = el.href
       }
     });
@@ -19,19 +27,25 @@
         } else {
           const [rI, rE] = el.range_chapters.split("-").map(Number);
           content += `
-            <ul>
-              ${range(rI, rE).map(ch=>`
-                <li>
-                  <span 
-                    class="item-link" 
-                    role="link" 
-                    data-id="${ch}" 
-                    onClick="openElement(this, '${list[ch]}')"
-                  >
-                    Capitulo-${ch}
-                  </span>
-                </li>`)}
-            </ul>`.replaceAll('>,', '>')
+            <ul>`;
+          for (ch of range(rI, rE)) {
+            if (Number(ch) > Object.keys(list).length) {
+              content += `</ul>`.replaceAll('>,', '>')
+              break;
+            }
+            content += `
+            <li>
+              <span 
+                class="item-link" 
+                role="link" 
+                data-id="${ch}" 
+                onClick="openElement(this, '${list[ch]}')"
+              >
+                Capitulo-${ch}
+              </span>
+            </li>`
+          }
+          content += `</ul>`.replaceAll('>,', '>')
         }
         content += `</section></details>`
       })
