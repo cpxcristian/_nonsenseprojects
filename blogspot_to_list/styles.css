@@ -8,6 +8,7 @@ body {
 #sidebar {
   height:100vh;
   position: relative!important;
+  z-index: 99;
 }
 #sidebar .list {
   overflow: hidden scroll;
@@ -32,6 +33,9 @@ details {
     cursor: pointer;
     padding-left: 12px;
 }
+details > summary:hover {
+  color: #cc6600;
+}
 .item-link {
   color: #F4A900;
 }
@@ -44,8 +48,8 @@ details {
     height: 45px;
     top: 0;
     right: -26px;
+    width: 26px;
     border-radius: 0 8px 8px 0;
-    z-index: 9999;
     display: flex;
     align-items: center;
     text-align: center;
@@ -57,17 +61,36 @@ details {
     background-color: gray;
     color: white !important;
 }
+#floating-button-prev {
+    background-color: gray;
+    color: white !important;
+    top: calc(50vh);
+    right: -26px;
+}
+#floating-button-next {
+    background-color: gray;
+    color: white !important;
+    top: calc(50vh);
+    left: calc(100vw - 26px);
+    border-radius: 8px 0 0 8px;
+}
 .hidden {
   width: 0!important;
   height: 0!important;
   display: block!important;
 }
 @media (max-width: 767px) {
-  .floating-button {
+  #hide-sidebar {
     right: 0!important;
     transform: scaleX(-1);
   }
-  .hidden .floating-button {
+  #sidebar #floating-button-prev, #sidebar #floating-button-next {
+    display: none;
+  }
+  .hidden #floating-button-prev, .hidden #floating-button-next {
+    display: block!important;
+  }
+  .hidden #hide-sidebar {
     right: -26px!important;
     transform: scaleX(1);
   }

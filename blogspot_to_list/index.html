@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background: white; margin: 0;">
+    <div class="post-body entry-content">
+
+    </div>
+</body>
+<script type="text/javascript">
+    const range = (start, end) => Array.from({ length: end - start + 1 }, (_, i) => start + i);
+    let postBody = document.querySelector('.post-body.entry-content');
+    
+    for (i of range(1, 1500)) {
+        postBody.innerHTML += `<a href="https://animeshoy12.blogspot.com/2022/03/monte-hua-novela-capitulo-${i}.html" target="_blank">Monte Hua (Novela) Capitulo ${i}</a>`
+    }
+    
+</script>
+<script src="index.js"></script>
+</html>
