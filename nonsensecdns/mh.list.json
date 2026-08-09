@@ -46,7 +46,7 @@
     ]
   },
   {
-    "name": "Secta shaolin",
+    "name": "Torneo de shaolin",
     "data": [
       { "range_chapters": "253-269", "name": "Invitación Secta shaolin" },
       { "range_chapters": "270-284", "name": "Torneo de poder" },
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "name": "Secta malvada",
+    "name": "Ataque de la secta miriada de hombres",
     "data": [
       { "range_chapters": "337-350", "name": "Antiguos Ancianos?" },
       { "range_chapters": "351-366", "name": "Secta Subsidiaria" },
@@ -67,7 +67,7 @@
     ]
   },
   {
-    "name": "Nuevas espadas",
+    "name": "Forjando espadas nuevas",
     "data": [
       { "range_chapters": "405-420", "name": "Viajando a Sichuan" },
       { "range_chapters": "421-425", "name": "Secta Yuryong" },
@@ -107,9 +107,64 @@
     ]
   },
   {
+    "name": "Arte secreto de la nube violeta",
+    "data": [
+      { "range_chapters": "651-669", "name": "Preparaciones" },
+      { "range_chapters": "670-689", "name": "Fundación de la alianza" },
+      { "range_chapters": "690-711", "name": "Un imitador" },
+      { "range_chapters": "712-720", "name": "Antepasado" },
+      { "range_chapters": "721-731", "name": "Enseñando a los ancianos" },
+      { "range_chapters": "732-739", "name": "Arte secreto de la nube violeta" }
+    ]
+  },
+  {
+    "name": "Confrontación en Rio YangTze",
+    "data": [
+      { "range_chapters": "740-745", "name": "Problemas en el Rio YangTze" },
+      { "range_chapters": "746-752", "name": "¿Chung Myung cambia?" },
+      { "range_chapters": "753-761", "name": "Lucha en el rio" },
+      { "range_chapters": "762-769", "name": "Llega Chung Myung" },
+      { "range_chapters": "770-785", "name": "Tomando la fortaleza" },
+      { "range_chapters": "786-793", "name": "Las 10 sectas se mueven" },
+      { "range_chapters": "794-806", "name": "Trampa" },
+      { "range_chapters": "807-814", "name": "Escalando el acantilado" },
+      { "range_chapters": "815-831", "name": "Enfrentamiento total" },
+      { "range_chapters": "832-846", "name": "Isla flor de ciruelo" },
+      { "range_chapters": "847-858", "name": "El mundo cambia, entrenamiento a puertas cerradas" }
+    ]
+  },
+  {
+    "name": "Rescate del clan Namnung",
+    "data": [
+      { "range_chapters": "859-871", "name": "Las sectas marchan a Xi'an" },
+      { "range_chapters": "872-886", "name": "El regreso del monte hua" },
+      { "range_chapters": "887-896", "name": "Después de la batalla" },
+      { "range_chapters": "897-912", "name": "La alianza se retira de YangTze" },
+      { "range_chapters": "913-925", "name": "Namgung ocupa la isla flor de ciruelo" },
+      { "range_chapters": "926-942", "name": "Los refuerzos se mueven" },
+      { "range_chapters": "943-958", "name": "Las 10 sectas ya no son la rectitud" },
+      { "range_chapters": "955-954", "name": "Namgung rehén" },
+      { "range_chapters": "955-972", "name": "Rescate del clan Namnung" },
+      { "range_chapters": "973-980", "name": "Chung Myung vs rey dragón negro" },
+      { "range_chapters": "980-998", "name": "Acusaciones y alianzas" },
+      { "range_chapters": "999-1015", "name": "Entrenando al clan Namngung" }
+    ]
+  },
+  {
+    "name": "Aparece el culto demoniaco",
+    "data": [
+      { "range_chapters": "1016-1024", "name": "El culto demoniaco avanza" },
+      { "range_chapters": "1025-1037", "name": "¿Quien detendrá al culto demoniaco?" },
+      { "range_chapters": "1038-1052", "name": "Luchando contra el culto demoniaco" },
+      { "range_chapters": "1053-1066", "name": "Obispo" },
+      { "range_chapters": "1067-1079", "name": "El maestro de los diez mil oros" },
+      { "range_chapters": "1080-1085", "name": "Sí logramos salvar a alguien" }
+    ]
+  },
+  {
     "name": "Pendiente",
     "data": [
-      { "range_chapters": "651-2000", "name": "Pendiente" }
+      { "range_chapters": "1086-2000", "name": "Pendiente" }
     ]
   }
 ]
