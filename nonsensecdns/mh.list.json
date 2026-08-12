@@ -162,9 +162,27 @@
     ]
   },
   {
+    "name": "¿La alianza se disuelve?",
+    "data": [
+      { "range_chapters": "1086-1093", "name": "Caminar juntos" },
+      { "range_chapters": "1094-1109", "name": "La Hua-ificación de la alianza" },
+      { "range_chapters": "1110-1120", "name": "El monte hua y clan Tang en conflicto" },
+      { "range_chapters": "1121-1130", "name": "Llega el palacio de las bestias y el mar del norte" },
+      { "range_chapters": "1131-1142", "name": "Acerquémonos más" },
+      { "range_chapters": "1143-1150", "name": "Pildora de autocultivo" },
+      { "range_chapters": "1151-1160", "name": "La secta abandonada por todos" },
+      { "range_chapters": "1161-1169", "name": "La propuesta del Shaolin" },
+      { "range_chapters": "1170-1178", "name": "¿La alianza se disuelve?" },
+      { "range_chapters": "1179-1191", "name": "Baek Cheon líder adjunto" },
+      { "range_chapters": "1192-1196", "name": "Chung Myung enferma" }
+    ]
+  },
+  {
     "name": "Pendiente",
     "data": [
-      { "range_chapters": "1086-2000", "name": "Pendiente" }
+      { "range_chapters": "1197-1206", "name": "Ayudar a la isla del sur" },
+      { "range_chapters": "1207-1212", "name": "Nuevo líder y líder adjunto" },
+      { "range_chapters": "1213-2000", "name": "Pendiente" }
     ]
   }
 ]
